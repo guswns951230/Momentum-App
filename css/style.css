@@ -1,5 +1,5 @@
-.hidden {
-  display: none;
+body {
+  text-align: center;
 }
 
 img {
@@ -11,5 +11,89 @@ img {
   right: 0px;
   bottom: 0px;
   z-index: -1;
-  opacity: 80%;
+  /* opacity: 80%; */
+}
+
+h1,
+h2,
+span {
+  color: white;
+}
+
+form {
+  margin: 30px 0;
+}
+
+input {
+  border: none;
+  background: none;
+  border-bottom: 2px solid white;
+  width: 50%;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  color: white;
+}
+
+button {
+  background: none;
+  border: none;
+  margin: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#clock {
+  font-size: 100px;
+}
+
+#login-form div,
+#todo-form div {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#login-form input {
+  border-bottom: 2px solid white;
+  font-size: 40px;
+  width: 20%;
+}
+
+#todo-form input {
+  font-size: 40px;
+}
+
+#todo-list li {
+  font-size: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+#todo-list {
+  list-style: none;
+}
+
+#quote {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -50%;
+}
+
+#quote span {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#weather {
+  position: absolute;
+  top: 5px;
+  right: 30px;
 }
