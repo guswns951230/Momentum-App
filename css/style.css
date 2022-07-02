@@ -11,7 +11,7 @@ img {
   right: 0px;
   bottom: 0px;
   z-index: -1;
-  /* opacity: 80%; */
+  opacity: 80%;
 }
 
 h1,
@@ -27,7 +27,6 @@ form {
 input {
   border: none;
   background: none;
-  border-bottom: 2px solid white;
   width: 50%;
   text-align: center;
 }
@@ -49,11 +48,18 @@ button {
   font-size: 100px;
 }
 
+#greeting {
+  font-size: 50px;
+  color: white;
+  font-weight: 600;
+}
+
 #login-form div,
 #todo-form div {
   color: white;
   font-size: 40px;
   font-weight: 700;
+  margin-bottom: 15px;
 }
 
 #login-form input {
@@ -63,15 +69,12 @@ button {
 }
 
 #todo-form input {
+  border-bottom: 2px solid white;
   font-size: 40px;
 }
 
 #todo-list li {
   font-size: 20px;
-}
-
-.hidden {
-  display: none;
 }
 
 #todo-list {
@@ -96,4 +99,8 @@ button {
   position: absolute;
   top: 5px;
   right: 30px;
+}
+
+#weather span {
+  display: block;
 }

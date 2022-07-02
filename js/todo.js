@@ -40,9 +40,11 @@ function handleToDoSubmit(event) {
     text: newTodo,
     id: Date.now(),
   }
-  toDos.push(newTodoObj);
-  paintToDo(newTodoObj);
-  saveToDos();
+  if (toDos.length < 10) {
+    toDos.push(newTodoObj);
+    paintToDo(newTodoObj);
+    saveToDos();
+  }
 }
 
 toDoForm.addEventListener('submit', handleToDoSubmit);
