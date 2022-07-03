@@ -39,7 +39,7 @@ input:focus {
 button {
   background: none;
   border: none;
-  margin: 0 5px;
+  margin: 0 10px;
   font-size: 20px;
   cursor: pointer;
 }
@@ -73,12 +73,22 @@ button {
   font-size: 40px;
 }
 
-#todo-list li {
-  font-size: 20px;
-}
-
 #todo-list {
   list-style: none;
+}
+
+#todo-list li {
+  font-size: 25px;
+  margin: 5px 0;
+  align-items: center;
+}
+
+#todo-list button {
+  background-color: #f23920;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 #quote {
@@ -90,7 +100,7 @@ button {
 }
 
 #quote span {
-  display: block;
+  display: inline-block;
   font-size: 18px;
   font-weight: 600;
 }
